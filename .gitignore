@@ -1,0 +1,8 @@
+*
+
+!.github/
+!src/
+!*.md
+!.editorconfig
+!LICENSE
+!build.sh
