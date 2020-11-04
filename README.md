@@ -12,10 +12,6 @@ Provides file sharing function via HTTP server.
     # use '-h' or '--help' for details
     ./gofs -h
 
-## Build
-
-    go build -o bin/gofs src/*.go
-
 ## CHANGES
 
 See the [CHANGES](CHANGE.md) for changes.
