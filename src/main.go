@@ -18,7 +18,7 @@ var (
 
 	HttpPort int64 = 48080
 
-	Version = "0.1.0"
+	Version = "0.1.1"
 )
 
 var logger = log.New(os.Stdout, "", log.LstdFlags|log.Lshortfile|log.Lmsgprefix)
@@ -106,7 +106,7 @@ func stat() {
 			if err != nil {
 				panic("Illegal number format for '-p, --port'. Please use '-h' for details.\n")
 			}
-			if HttpPort <= 1024 || HttpPort > 65535 {
+			if HttpPort <= 0 || HttpPort > 65535 {
 				panic("Illegal number for HTTP Port. Please use '-h' for details.\n")
 			}
 		}
