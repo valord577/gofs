@@ -16,7 +16,7 @@ import (
 func run(port int64) {
 	http.HandleFunc("/", gofs)
 
-	addr := ":" + strconv.FormatInt(port, 10)
+	addr := "[::]:" + strconv.FormatInt(port, 10)
 	_ = http.ListenAndServe(addr, nil)
 }
 
