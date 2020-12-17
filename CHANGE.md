@@ -1,6 +1,12 @@
 # Changes
 
-All notable changes to Gofs are documented in this file.
+All notable changes to **Gofs** are documented in this file.
+
+## v0.1.2
+
+#### Fixed
+
+- Fix the display of the long file name. 
 
 ## v0.1.1
 

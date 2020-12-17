@@ -18,7 +18,7 @@ var (
 
 	HttpPort int64 = 48080
 
-	Version = "0.1.1"
+	Version = "0.1.2"
 )
 
 var logger = log.New(os.Stdout, "", log.LstdFlags|log.Lshortfile|log.Lmsgprefix)

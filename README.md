@@ -12,7 +12,7 @@ Provides file sharing function via HTTP server.
     # use '-h' or '--help' for details
     ./gofs -h
 
-## CHANGES
+## Changes
 
 See the [CHANGES](CHANGE.md) for changes.
 

@@ -114,7 +114,7 @@ func readDir(dirname string) []template.HTML {
 
 			if len(name)+1 > MaxFilenameLength {
 				b.Reset()
-				b.WriteString(name[:MaxFilenameLength-2])
+				b.WriteString(name[:MaxFilenameLength-3])
 				b.WriteString("../")
 				name = b.String()
 			} else {
@@ -126,7 +126,7 @@ func readDir(dirname string) []template.HTML {
 		} else {
 			if len(name) > MaxFilenameLength {
 				b.Reset()
-				b.WriteString(name[:MaxFilenameLength-2])
+				b.WriteString(name[:MaxFilenameLength-3])
 				b.WriteString("..&gt;")
 				name = b.String()
 			}
