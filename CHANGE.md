@@ -6,6 +6,7 @@ All notable changes to **Gofs** are documented in this file.
 
 #### Fixed
 
+- Fix the display of 404 page.
 - Fix the display of the long file name. 
 
 ## v0.1.1

@@ -38,7 +38,7 @@ func page404() string {
 <div style="text-align: center;">
     <a href="https://github.com/valord577/gofs" target="_blank">gofs</a>
 </div>
-</body>a
+</body>
 </html>
 `
 }
